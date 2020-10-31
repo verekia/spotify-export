@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+data/
+spotify-export.config.json

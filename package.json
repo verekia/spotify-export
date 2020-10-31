@@ -1,0 +1,29 @@
+{
+  "name": "spotify-export",
+  "version": "0.1.0",
+  "main": "index.js",
+  "bin": {
+    "spotify-export": "./index.js"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": "https://github.com/verekia/spotify-export",
+  "keywords": [
+    "Spotify",
+    "Export",
+    "Backup",
+    "Playlists",
+    "Favorites"
+  ],
+  "author": "Jonathan Verrecchia",
+  "license": "MIT",
+  "homepage": "https://github.com/verekia/spotify-export",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.0.1",
+    "json-stringify-pretty-compact": "^2.0.0",
+    "lodash": "^4.17.20",
+    "spotify-web-api-node": "^5.0.0"
+  }
+}
